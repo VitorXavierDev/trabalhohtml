@@ -1,28 +1,45 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <title>Portfólio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale="1.0">
+    <title>Portfólio - Portfólio Pessoal</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <nav>
-    <ul>
-      <li><a href="index.html">Sobre Mim</a></li>
-      <li><a href="formacao.html">Formação</a></li>
-      <li><a href="portfolio.html">Portfólio</a></li>
-      <li><a href="contato.html">Contato</a></li>
-    </ul>
-  </nav>
+   
+    <nav>
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="formacao.html">Formação</a></li>
+            <li><a href="portfolio.html" class="active">Portfólio</a></a>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
 
-  <main>
-    <h1>Portfólio</h1>
-    <p>Confira alguns dos projetos que desenvolvi ao longo dos meus estudos:</p>
-    <ul>
-      <li><a href="https://projeto-loja-ficticia.netlify.app" target="_blank">Loja Virtual com HTML e CSS</a></li>
-      <li><a href="https://projeto-calculadora-js.netlify.app" target="_blank">Calculadora com JavaScript</a></li>
-      <li><a href="https://github.com/joaosilva-dev/portfolio" target="_blank">Portfólio no GitHub</a></li>
-    </ul>
-  </main>
+    <main>
+        <h1>Meu Portfólio</h1>
+        <section> <!-- Lista dos projeto criado -->
+            <h2>Projetos</h2>
+            <div class="portfolio-item">
+                <h3>Primeiro projeto no github</h3>
+                <p>Um site sobre o Android, responsivo construído com HTML e CSS.</p>
+                <a href="https://vitorxavierdev.github.io/projeto-android/" target="_blank">Ver Projeto</a>
+               
+            </div>
+            <div class="portfolio-item">
+                <h3>Primeiro projeto para cliente</h3>
+                <p>Nesse projeto utilizei Wordpress com bastante conhecimento básico da faculdade.</p>
+                <a href="https://paxsantana.com.br/" target="_blank">Ver Projeto</a>
+               
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Vitor Xavier da Silva. Todos os direitos reservados.</p>
+        
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
